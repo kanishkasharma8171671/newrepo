@@ -1,0 +1,15 @@
+from turtle import *
+speed(50)
+pensize(4)
+bgcolor('black')
+color('green')
+
+for i in range(50):
+	circle(100-i,100)
+	left(80)
+	circle(100-i,100)
+	
+for j in range(6):
+	right(40)
+	
+done()()
